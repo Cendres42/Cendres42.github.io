@@ -1,0 +1,303 @@
+﻿
+@media all and (max-width: 450px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    img {
+        display: none;
+    }
+
+    body {
+        text-align: justify;
+    }
+
+    .prenom {
+        color: #b71c1c;
+    }
+
+    .dev {
+        text-decoration: underline;
+        text-decoration-color: #b71c1c;
+    }
+
+    #elementContact
+    {
+        justify-content: center;
+    }
+
+
+    #conteneurPage {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        border: 1px solid grey;
+        flex-wrap: wrap;
+    }
+
+    #conteneurG, a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #b71c1c;
+        color: whitesmoke;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #conteneurG {
+        padding-bottom: 10px;
+    }
+
+    #conteneurD {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+
+    #iconesLoisirs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #elementMoi
+    {
+        justify-content:center;
+    }
+
+
+    #conteneurD h2 {
+        color: orange;
+        font-size: 1.2em;
+    }
+
+    #elementExperiences h2 {
+        font-size: 1.1em;
+    }
+
+    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05 {
+        display: flex;
+        flex-direction:column;
+        padding-right: 10px;
+    }
+
+    #elementFormations, #elementCompetences {
+        padding-right: 10px;
+    }
+
+    #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 {
+        padding-right: 30px;
+        font-weight: bold;
+        min-width: 50px;
+    }
+
+    #elementFormations ul {
+        padding-left: 25px;
+    }
+}
+@media all and (min-width: 450px) and (max-width: 800px) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    img {
+        display: none;
+    }
+
+    body {
+        text-align: justify;
+    }
+
+    .prenom {
+        color: #b71c1c;
+    }
+
+    .dev {
+        text-decoration: underline;
+        text-decoration-color: #b71c1c;
+    }
+
+    #elementContact 
+    {
+        text-align: center;
+    }
+
+
+    #conteneurPage {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        border: 1px solid grey;
+        flex-wrap: wrap;
+    }
+
+    #conteneurG, a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #b71c1c;
+        color: whitesmoke;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #conteneurG {
+        padding-bottom: 30px;
+    }
+
+    #conteneurD {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+
+    #iconesLoisirs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    #elementMoi {
+        max-width: 150px;
+    }
+
+
+    #conteneurD h2 {
+        color: orange;
+        font-size: 1.2em;
+    }
+
+    #elementExperiences h2 {
+        font-size: 1.1em;
+    }
+
+    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05 {
+        display: flex;
+        padding-right: 15px;
+    }
+
+    #elementFormations, #elementCompetences {
+        padding-right: 15px;
+    }
+
+    #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 {
+        padding-right: 50px;
+        font-weight: bold;
+        min-width: 150px;
+    }
+
+    #elementFormations ul {
+        padding-left: 45px;
+    }
+}
+@media all and (min-width: 800px) and (max-width: 1280px) 
+{
+    
+    body
+    {
+        text-align: justify;
+    }
+
+    .prenom 
+    {
+        color: #b71c1c;
+    }
+
+    .dev 
+    {
+        text-decoration: underline;
+        text-decoration-color: #b71c1c;
+    }
+    #elementFormations, #elementCompetences
+    {
+        padding-right: 15px;
+    }
+    #conteneurPage 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid grey;
+    }
+
+    #conteneurG, a 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #b71c1c;
+        color: whitesmoke;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #conteneurG
+    {
+        padding-bottom: 100px;
+    }
+
+    #conteneurD 
+    {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    #elementContact
+    {
+        text-align: center;
+    }
+
+    #iconesLoisirs 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #elementMoi 
+    {
+        max-width: 250px;
+    }
+
+    #conteneurG h1 
+    {
+        background-color: orange;
+        color: black;
+    }
+
+    #conteneurD h2 
+    {
+        color: orange;
+        font-size: 1.2em;
+    }
+
+    #elementExperiences h2 
+    {
+        font-size: 1.1em;
+    }
+
+    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05
+    {
+        display: flex;
+         padding-right:30px;
+    }
+
+    #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 
+    {
+        padding-right: 40px;
+        font-weight: bold;
+        min-width: 160px;
+    }
+
+ #elementFormations ul 
+    {
+        padding-left: 75px;
+    }
+    #elementCompetences ul {
+        padding-left: 75px;
+    }
+}
