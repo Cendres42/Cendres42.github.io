@@ -4,7 +4,9 @@
     h1 {
         font-size: 1.2em;
     }
-
+    hr {
+        color :#b71c1c;
+    }
     img {
         display: none;
     }
@@ -120,7 +122,9 @@
     h1 {
         font-size: 1.4em;
     }
-
+    hr {
+        color: #b71c1c;
+    }
     img {
         display: none;
     }
@@ -233,7 +237,9 @@
         text-align: justify;
         
     }
-   
+    hr {
+        color: #b71c1c;
+    }
     
     .prenom 
     {
