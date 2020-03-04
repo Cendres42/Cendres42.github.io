@@ -1,5 +1,6 @@
 ﻿
-@media all and (max-width: 450px) {
+@media all and (max-width:480px)
+{
     h1 {
         font-size: 1.2em;
     }
@@ -21,8 +22,7 @@
         text-decoration-color: #b71c1c;
     }
 
-    #elementContact
-    {
+    #elementContact {
         justify-content: center;
     }
 
@@ -32,7 +32,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         border: 1px solid grey;
-        flex-wrap: wrap;
+       
     }
 
     #conteneurG, a {
@@ -62,9 +62,8 @@
         justify-content: space-around;
     }
 
-    #elementMoi
-    {
-        justify-content:center;
+    #elementMoi {
+        justify-content: center;
     }
 
 
@@ -79,7 +78,7 @@
 
     #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05 {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         padding-right: 10px;
     }
 
@@ -97,7 +96,8 @@
         padding-left: 25px;
     }
 }
-@media all and (min-width: 450px) and (max-width: 800px) {
+@media all and (min-width: 480px) and (max-width: 800px) 
+{
     h1 {
         font-size: 1.4em;
     }
@@ -130,7 +130,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         border: 1px solid grey;
-        flex-wrap: wrap;
+        
     }
 
     #conteneurG, a {
@@ -195,7 +195,7 @@
         padding-left: 45px;
     }
 }
-@media all and (min-width: 800px) and (max-width: 1280px) 
+@media all and (min-width: 800px) 
 {
     
     body
