@@ -16,12 +16,12 @@
     }
 
     .prenom {
-        color: #b71c1c;
+        color: #0eb0ab;
     }
 
     .dev {
         text-decoration: underline;
-        text-decoration-color: #b71c1c;
+        text-decoration-color: #0eb0ab;
     }
 
     #elementContact {
@@ -41,9 +41,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #b71c1c;
-        color: whitesmoke;
-        
+        background-color: #0eb0ab;
+             
     }
     #conteneurG p, a {
             padding-right: 5px;
@@ -71,7 +70,7 @@
 
 
     #conteneurD h2 {
-        color: orange;
+        color: #0eb0ab;
         font-size: 1.2em;
     }
 
@@ -90,7 +89,7 @@
     }
    .tailleIcones i
    {
-       color:orange;
+       color:#6ef7c9;
        font-size:0.5em;
        margin-right:5px;
    }
@@ -111,7 +110,7 @@
 @media all and (min-width: 480px) and (max-width: 800px) 
 {
     .tailleIcones i {
-        color: orange;
+        color: #6ef7c9;
         font-size: 0.5em;
         margin-right: 5px;
     }
@@ -134,12 +133,12 @@
     }
 
     .prenom {
-        color: #b71c1c;
+        color: #0eb0ab;
     }
 
     .dev {
         text-decoration: underline;
-        text-decoration-color: #b71c1c;
+        text-decoration-color: #0eb0ab;
     }
 
     #elementContact 
@@ -160,8 +159,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: #b71c1c;
-        color: whitesmoke;
+        background-color: #0eb0ab;
+      
         
     }
     #conteneurG p, a {
@@ -194,7 +193,7 @@
 
 
     #conteneurD h2 {
-        color: orange;
+        color: #0eb0ab;
         font-size: 1.2em;
     }
 
@@ -224,7 +223,7 @@
 @media all and (min-width: 800px) 
 {
     .tailleIcones i {
-        color: orange;
+        color: #6ef7c9;
         font-size: 0.5em;
         margin-right: 5px;
     }
@@ -243,13 +242,12 @@
     
     .prenom 
     {
-        color: #b71c1c;
+        color: #0eb0ab;
     }
 
-    .dev 
-    {
+    .dev {
         text-decoration: underline;
-        text-decoration-color: #b71c1c;
+        text-decoration-color: #0eb0ab;
     }
     #elementFormations, #elementCompetences
     {
@@ -266,14 +264,12 @@
 
     }
 
-    #conteneurG , a 
-    {
+    #conteneurG, a {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #b71c1c;
-        color: whitesmoke;
-       
+        background-color: #0eb0ab;
+        
     }
     #conteneurG p, a {
             padding-right: 15px;
@@ -310,14 +306,14 @@
 
     #conteneurG h1 
     {
-        background-color: orange;
+        background-color: #6ef7c9;
         color: black;
         text-align:center;
     }
 
     #conteneurD h2 
     {
-        color: orange;
+        color: #0eb0ab;
         font-size: 1.2em;
     }
 
