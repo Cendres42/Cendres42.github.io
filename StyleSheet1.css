@@ -16,12 +16,12 @@
     }
 
     .prenom {
-        color: #0eb0ab;
+        color: #00695C;
     }
 
     .dev {
         text-decoration: underline;
-        text-decoration-color: #0eb0ab;
+        text-decoration-color: #00695C;
     }
 
     #elementContact {
@@ -41,12 +41,13 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #0eb0ab;
+        background-color: #00695C;
              
     }
     #conteneurG p, a {
             padding-right: 5px;
             padding-left: 5px;
+            color:whitesmoke;
         }
     #conteneurG {
         padding-bottom: 10px;
@@ -62,6 +63,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        color: whitesmoke;
     }
 
     #elementMoi {
@@ -70,7 +72,7 @@
 
 
     #conteneurD h2 {
-        color: #0eb0ab;
+        color: #00695C;
         font-size: 1.2em;
     }
 
@@ -133,12 +135,12 @@
     }
 
     .prenom {
-        color: #0eb0ab;
+        color: #00695C;
     }
 
     .dev {
         text-decoration: underline;
-        text-decoration-color: #0eb0ab;
+        text-decoration-color: #00695C;
     }
 
     #elementContact 
@@ -159,9 +161,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: #0eb0ab;
-      
-        
+        background-color: #00695C;
+        color: whitesmoke;
     }
     #conteneurG p, a {
         
@@ -183,8 +184,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        min-height:200px;
-        
+        min-height: 200px;
+        color: whitesmoke;
     }
 
     #elementMoi {
@@ -193,7 +194,7 @@
 
 
     #conteneurD h2 {
-        color: #0eb0ab;
+        color: #00695C;
         font-size: 1.2em;
     }
 
@@ -242,12 +243,12 @@
     
     .prenom 
     {
-        color: #0eb0ab;
+        color: #00695C;
     }
 
     .dev {
         text-decoration: underline;
-        text-decoration-color: #0eb0ab;
+        text-decoration-color: #00695C;
     }
     #elementFormations, #elementCompetences
     {
@@ -268,13 +269,14 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #0eb0ab;
+        background-color: #00695C;
         
     }
-    #conteneurG p, a {
+        #conteneurG p, a {
             padding-right: 15px;
             padding-left: 15px;
-      }
+            color: whitesmoke;
+        }
     #conteneurG
     {
         padding-bottom: 100px;
@@ -292,11 +294,11 @@
         text-align: center;
     }
 
-    #iconesLoisirs 
-    {
+    #iconesLoisirs {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        color: whitesmoke;
     }
 
     #elementMoi 
@@ -313,7 +315,7 @@
 
     #conteneurD h2 
     {
-        color: #0eb0ab;
+        color: #00695C;
         font-size: 1.2em;
     }
 
