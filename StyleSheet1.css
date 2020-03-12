@@ -79,8 +79,7 @@
     #elementExperiences h2 {
         font-size: 1.1em;
     }
-
-    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05 {
+    .cont {
         display: flex;
         flex-direction: column;
         padding-right: 10px;
@@ -202,7 +201,7 @@
         font-size: 1.1em;
     }
 
-    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05 {
+   .cont {
         display: flex;
         padding-right: 15px;
     }
@@ -324,7 +323,7 @@
         font-size: 1.1em;
     }
 
-    #cont1, #cont2, #cont3, #cont0, #cont01, #cont02, #cont03, #cont04, #cont05
+    .cont
     {
         display: flex;
          padding-right:30px;
