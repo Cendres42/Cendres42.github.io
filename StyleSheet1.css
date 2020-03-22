@@ -34,7 +34,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         border: 1px solid grey;
-       
+
     }
 
     #conteneurG, a {
@@ -42,7 +42,7 @@
         flex-direction: column;
         justify-content: space-between;
         background-color: #00695C;
-             
+
     }
     #conteneurG p, a {
             padding-right: 5px;
@@ -98,7 +98,7 @@
    {
        list-style-type:circle;
    }
-   #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 {
+   .el {
             padding-right: 30px;
             font-weight: bold;
             min-width: 50px;
@@ -108,7 +108,7 @@
         padding-left: 25px;
     }
 }
-@media all and (min-width: 480px) and (max-width: 800px) 
+@media all and (min-width: 480px) and (max-width: 800px)
 {
     .tailleIcones i {
         color: #6ef7c9;
@@ -142,7 +142,7 @@
         text-decoration-color: #00695C;
     }
 
-    #elementContact 
+    #elementContact
     {
         text-align: center;
     }
@@ -153,7 +153,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         border: 1px solid grey;
-        
+
     }
 
     #conteneurG, a {
@@ -164,7 +164,7 @@
         color: whitesmoke;
     }
     #conteneurG p, a {
-        
+
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -210,17 +210,17 @@
         padding-right: 15px;
     }
 
-    #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 {
-        padding-right: 50px;
-        font-weight: bold;
-        min-width: 150px;
+    .el{
+    padding-right: 50px;
+    font-weight: bold;
+    min-width: 150px;
     }
 
     #elementFormations ul {
         padding-left: 45px;
     }
 }
-@media all and (min-width: 800px) 
+@media all and (min-width: 800px)
 {
     .tailleIcones i {
         color: #6ef7c9;
@@ -231,16 +231,16 @@
     ul {
         list-style-type: circle;
     }
-    body 
+    body
     {
         text-align: justify;
-        
+
     }
     hr {
         color: #6ef7c9;
     }
-    
-    .prenom 
+
+    .prenom
     {
         color: #00695C;
     }
@@ -253,7 +253,7 @@
     {
         padding-right: 15px;
     }
-    #conteneurPage 
+    #conteneurPage
     {
         display: flex;
         flex-direction: row;
@@ -269,7 +269,7 @@
         flex-direction: column;
         justify-content: space-between;
         background-color: #00695C;
-        
+
     }
         #conteneurG p, a {
             padding-right: 15px;
@@ -281,7 +281,7 @@
         padding-bottom: 100px;
     }
 
-    #conteneurD 
+    #conteneurD
     {
         display: flex;
         flex-direction: column;
@@ -300,25 +300,25 @@
         color: whitesmoke;
     }
 
-    #elementMoi 
+    #elementMoi
     {
         max-width: 250px;
     }
 
-    #conteneurG h1 
+    #conteneurG h1
     {
         background-color: #6ef7c9;
         color: black;
         text-align:center;
     }
 
-    #conteneurD h2 
+    #conteneurD h2
     {
         color: #00695C;
         font-size: 1.2em;
     }
 
-    #elementExperiences h2 
+    #elementExperiences h2
     {
         font-size: 1.1em;
     }
@@ -329,18 +329,24 @@
          padding-right:30px;
     }
 
-    #el0, #el1, #el5, #el01, #el03, #el05, #el07, #el09, #el3 
+    .el
     {
         padding-right: 40px;
         font-weight: bold;
         min-width: 160px;
     }
 
- #elementFormations ul 
+ #elementFormations ul
     {
         padding-left: 75px;
     }
     #elementCompetences ul {
         padding-left: 75px;
     }
+    img {
+         height: 130px;
+         width: 130px;
+         margin-top: 20px;
+         margin-bottom:0;
+     }
 }
